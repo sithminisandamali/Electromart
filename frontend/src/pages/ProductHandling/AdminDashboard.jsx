@@ -9,6 +9,7 @@ const AdminDashboard = () => {
     navigate("/admin-login");
   };
 
+  
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Simple Header with Admin Panel title and Logout */}
