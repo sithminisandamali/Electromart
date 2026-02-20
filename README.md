@@ -1,75 +1,16 @@
-# ElectroMart - Full Stack Electronics Store
+# React + Vite
 
-ElectroMart is a modern e-commerce platform for electronic products with a complete admin dashboard. This full-stack web application features a React frontend and a Node.js/Express backend with full CRUD capabilities, User Management, Product Handling, payments and delivery management and novelty feature.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Contributors](#contributors)
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-### 🛍️ User-Facing Features
-- **Browse Electronics**: Filter and search through various electronic items
-- **Voice Search**: Use natural voice commands like "Find me a laptop" to search products
-- **Product Gallery**: Multiple product images with fast loading
-- **Secure Checkout**: Smooth order placement with payment confirmation
-- **Customer Feedback**: Submit reviews and ratings for products
+## React Compiler
 
-### ⚙️ Admin Features
-- **Product Management**: Add, update, delete, or list products with images (CRUD)
-- **User Management**: View and manage registered customer accounts, feedback manage
-- **Payment Management**: View and track all payment transactions
-- **Delivery Management**: Monitor and update delivery progress/status
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Technologies
+## Expanding the ESLint configuration
 
-### Frontend
-- React.js with Hooks
-- React Router v6
-- Axios for API requests
-- Web Speech API (for voice commands)
-- Tailwind CSS
-- Toast Notifications
-
-### Backend
-- Node.js + Express.js
-- MongoDB with Mongoose
-- Multer (for image uploads)
-- Dotenv (for environment variables)
-- RESTful API architecture
-
-## Installation
-
-### Prerequisites
-- Node.js v16+
-- MongoDB (local or MongoDB Atlas account)
-
-### Project Setup
-
-```bash
-https://github.com/sithminisandamali/Electromart.git
-
-```
-### Backend Setup
-```bash
-cd Electromart/backend
-npm install
-npm run server
-```
-### Frontend Setup
-```bash
-cd Electromart/frontend
-npm install
-npm run dev
-```
-### Environment Configuration
-```bash
-PORT=
-MONGO_URI= 
-```
-### Contributors
-ITBIN-2313-0098 - M.A.S. Sandamali - Front end
-ITBIN-2313-0117 - K.G.I. Udani - Back end
-ITBIN-2313-0121 - W.G.D.M. Dissanayaka - Devop
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
